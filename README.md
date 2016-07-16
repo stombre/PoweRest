@@ -1,4 +1,4 @@
-# powerest [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# PoweRest [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Framework for building REST API with Express
 
 ## Installation
@@ -10,9 +10,13 @@ $ npm install --save powerest
 ## Usage
 
 ```js
-var powerest = require('powerest');
+const powerest = require('powerest');
+const express = require('express');
 
-powerest('Rainbow');
+const app = express();
+
+app.listen(8080);
+
 ```
 ## License
 
